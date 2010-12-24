@@ -1,13 +1,12 @@
 files = ['README.rdoc', 'LICENSE', 'Rakefile', 'mixpanel.gemspec', '{spec,lib}/**/*'].map {|f| Dir[f]}.flatten
 
 spec = Gem::Specification.new do |s|
-  s.name = "mixpanel"
-  s.version = "0.7.1"
-  s.rubyforge_project = "mixpanel"
+  s.name = "loganb-mixpanel"
+  s.version = "0.7.2"
   s.description = "Simple lib to track events in Mixpanel service. It can be used in any rack based framework."
   s.author = "Alvaro Gil"
-  s.email = "zevarito@gmail.com"
-  s.homepage = "http://cuboxsa.com"
+  s.email = "logan@datacurrent.com"
+  s.homepage = "http://github.com/loganb/mixpanel"
   s.platform = Gem::Platform::RUBY
   s.summary = "Supports direct request api and javascript requests through a middleware."
   s.files = files
